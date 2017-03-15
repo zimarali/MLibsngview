@@ -2,21 +2,24 @@
 <html ng-app="madlibsApp">
   <head>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
     <title>MadLibs</title>
   </head>
   <body>
+    <div class="page-header">
+      <h1>MadLibs</h1>
+    </div>
 
-    <h1>MadLibs</h1>
+      <a href="#/userinput">Enter stuff here</a> |
+      <a href="#/inputdisplay">See the stuff in place</a>
+      <br>
 
-    <a href="#/userinput">Enter stuff here.</a>
-    <a href="#/inputdisplay">See the stuff in place.</a>
-
-    <ng-view>
-    </ng-view>
+      <ng-view>
+      </ng-view>
 
     <script src="https://code.angularjs.org/1.6.2/angular.js" charset="utf-8"></script>
     <script src="https://code.angularjs.org/1.6.2/angular-route.min.js" charset="utf-8"></script>
-    <link rel="stylesheet" href="style.css">
     <script src="scripts/module.js" charset="utf-8"></script>
     <script src="scripts/userinput.js" charset="utf-8"></script>
     <script src="scripts/view.js" charset="utf-8"></script>
