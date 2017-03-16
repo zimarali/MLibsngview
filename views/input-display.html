@@ -1,5 +1,5 @@
 <br>
-Your name is <span>{{mlInput.name}}</span> and you're <span>{{mlInput.adj1}}</span>. Occasionally you like to <span>{{mlInput.verb1}}</span>, that's cool I guess.
-We all know you tend to describe yourself as <span>{{mlInput.adj2}}</span>, ok then. Sometimes we'll find you at <span>{{mlInput.place}}</span>, that's weird don't you think?
+Your name is <span>{{mlInput.name || "NAME"}}</span> and you're <span>{{mlInput.adj1 || "ADJECTIVE"}}</span>. Occasionally you like to <span>{{mlInput.verb1 || "VERB"}}</span>, that's cool I guess.
+We all know you tend to describe yourself as <span>{{mlInput.adj2 || "ADJECTIVE"}}</span>, ok then. Sometimes we'll find you at <span>{{mlInput.place || "PLACE"}}</span>, that's weird don't you think?
 <br>
-You should probably start <span>{{mlInput.verb2}}</span> if you ever want a chance at being a <span>{{mlInput.noun}}</span>.
+You should probably start <span>{{mlInput.verb2 || "VERB"}}</span> if you ever want a chance at being a <span>{{mlInput.noun1 || "NOUN"}}</span>.
